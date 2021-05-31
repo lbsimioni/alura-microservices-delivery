@@ -1,6 +1,6 @@
 spring:
   application:
-    name: 'furnisher'
+    name: 'delivery'
   profiles:
     active: dev
   cloud:

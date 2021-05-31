@@ -11,11 +11,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>br.com.microservices.furnisher</groupId>
-    <artifactId>furnisher</artifactId>
+    <groupId>br.com.microservices.delivery</groupId>
+    <artifactId>delivery</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>furnisher</name>
-    <description>Project for Furnisher Microservice</description>
+    <name>delivery</name>
+    <description>Project for Delivery Microservice</description>
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>2020.0.2</spring-cloud.version>
