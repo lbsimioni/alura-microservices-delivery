@@ -1,8 +1,8 @@
-package br.com.microservices.delivery.controllers;
+package br.com.alura.microservices.delivery.controllers;
 
-import br.com.microservices.delivery.dtos.DeliveryDTO;
-import br.com.microservices.delivery.dtos.VoucherDTO;
-import br.com.microservices.delivery.services.DeliveryService;
+import br.com.alura.microservices.delivery.services.DeliveryService;
+import br.com.alura.microservices.delivery.dtos.DeliveryDTO;
+import br.com.alura.microservices.delivery.dtos.VoucherDTO;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package br.com.microservices.delivery.models;
+package br.com.alura.microservices.delivery.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

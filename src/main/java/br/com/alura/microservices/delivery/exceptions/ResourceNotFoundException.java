@@ -1,4 +1,4 @@
-package br.com.microservices.delivery.exceptions;
+package br.com.alura.microservices.delivery.exceptions;
 
 import org.springframework.http.HttpStatus;
 
