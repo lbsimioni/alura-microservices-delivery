@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "a8d3016c-2022-4877-a8e1-aa064be6c88b",
+		"name": "DELIVERY",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "[DELIVERY] Reserve a Delivery",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"requestId\": 1,\n    \"searchDate\": \"2021-05-31\",\n    \"forecastDate\": \"2021-06-04\",\n    \"originAddress\": \"Meu endereço\",\n    \"destinationAddress\": \"Endereço 2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{deliveryApi}}/deliveries",
+					"host": [
+						"{{deliveryApi}}"
+					],
+					"path": [
+						"deliveries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[DELIVERY] Get Voucher by Number",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{deliveryApi}}/deliveries/1",
+					"host": [
+						"{{deliveryApi}}"
+					],
+					"path": [
+						"deliveries",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

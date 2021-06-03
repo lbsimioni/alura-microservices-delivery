@@ -11,7 +11,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>br.com.microservices.delivery</groupId>
+    <groupId>br.com.alura.microservices</groupId>
     <artifactId>delivery</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>delivery</name>
